@@ -1,3 +1,5 @@
+// Ditambahkan oleh Muhammad Atha Aryasuta Hans 103032400141
+
 package main
 
 import (
@@ -11,19 +13,19 @@ import (
 
 // Struct untuk menyimpan data tim
 type Team struct {
-	Name       string
-	Players    []string
-	Wins       int
-	Losses     int
+	Name    string
+	Players []string
+	Wins    int
+	Losses  int
 }
 
 // Struct untuk menyimpan hasil pertandingan
 type Match struct {
-	Team1      string
-	Team2      string
-	Score1     int
-	Score2     int
-	Date       string
+	Team1  string
+	Team2  string
+	Score1 int
+	Score2 int
+	Date   string
 }
 
 // Array untuk menyimpan data tim dan pertandingan
